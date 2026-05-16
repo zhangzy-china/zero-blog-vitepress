@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: '/zero-blog-vitepress/',
   title: "Zero Blog",
   description: "一些无用知识点",
   themeConfig: {
